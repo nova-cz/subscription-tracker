@@ -1,0 +1,27 @@
+#Para crear un proyetco de backend sin forn usamos el comando
+
+npx express-generator --no-view
+
+precisamente -view es el que dice que no queremos front
+
+./ siempre significa que creara el proyetco dodne te encuentras actualmente y no creara una carpeta nueva
+
+importamos express con:
+- import express from 'express'
+
+creamos nuetsro server
+- const app = express();
+
+usamos app, para hacer un post get, put, delete
+
+app.__
+
+necesitamos dos parametros req y res
+
+que es el request and response
+
+
+en env.js -> podemos dfeinir diferentes archivos con variables d eentorno, como puertos o produccion, asi mismo se vuelve mas util, y solo se manda a llamar el puerto en app.js
+
+en env.js:
+- simplemente se le define un path al config y se exporta obviamnete el puerto y demas archivos que hayamos creado  
