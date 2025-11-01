@@ -25,3 +25,7 @@ en env.js -> podemos dfeinir diferentes archivos con variables d eentorno, como 
 
 en env.js:
 - simplemente se le define un path al config y se exporta obviamnete el puerto y demas archivos que hayamos creado  
+
+
+##Haciendo routes o endpoints
+
